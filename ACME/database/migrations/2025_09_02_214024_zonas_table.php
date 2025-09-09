@@ -13,7 +13,7 @@ return new class extends Migration
     {
        Schema::create('zones', function(Blueprint $table){
         $table->id();
-        $table->foreignId('nombre');
+        $table->string('nombre');
         $table->string('descripcion');
         $table->timestamps();
         });
