@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('planos', function(Blueprint $table){
         $table->id();
         $table->foreignId('proyecto_id')->constrained('proyectos');
-        $table->foreignId('nombre_plano');
+        $table->string('nombre_plano');
         $table->string('descripcion');
         $table->string('version');
         $table->timestamps();

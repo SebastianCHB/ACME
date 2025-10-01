@@ -51,5 +51,9 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-user"></i></div>
                                 Usuarios
                             </a>
-                    </div>
-                </nav>
+                            <a class="nav-link" href="/dashboard/planos">
+                                <div class="sb-nav-link-icon"><i class="fas fa-paper"></i></div>
+                                Planos
+                            </a>
+                         </div>
+                      </nav>

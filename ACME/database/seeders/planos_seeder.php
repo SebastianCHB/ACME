@@ -17,12 +17,5 @@ class planos_seeder extends Seeder
             "version" => 'XX2-2004-23',
             'created_at' => date('Y-m-d H:i:s')
         ]);
-        DB::table('planos')->insert([
-            "proyecto_id" => 1,
-            "nombre_plano" => 220203,
-            "descripcion" => 'Plano de construccion club',
-            "version" => 'XX2-2005-22',
-            'created_at' => date('Y-m-d H:i:s')
-        ]);
     }
 }
